@@ -46,60 +46,25 @@ Edit
 Follow the steps below to set up and run the project locally:
 
 1. **Clone the repository**
-```bash
-git clone https://github.com/PrafullHarer/Hospitron.git
-cd Hospitron
-Create a virtual environment (optional but recommended)
+		```bash
+				git clone https://github.com/PrafullHarer/Hospitron.git
+				cd Hospitron
+2. **Create a virtual environment (optional but recommended)**
+			python -m venv venv
+3. **Activate the environment**
+	On Windows:
+		venv\Scripts\activate
+	On macOS/Linux:
+		source venv/bin/activate
+4. **Install dependencies**
+		pip install -r requirements.txt
+5. **Run the Flask application**
+		python app.py
+6. **Access the application in your browser**
+		http://127.0.0.1:5000
 
-bash
-Copy
-Edit
-python -m venv venv
-# Activate the environment
-# On Windows:
-venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
-Install dependencies
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the Flask application
-
-bash
-Copy
-Edit
-python app.py
-Access the application in your browser
-
-cpp
-Copy
-Edit
-http://127.0.0.1:5000
-
-
-
-🙌 Contribution Guidelines
-We welcome contributions to improve Hospitron! To contribute:
-
-Fork the repository
-
-Create a new feature/bugfix branch
-
-Make your changes
-
-Commit with clear messages
-
-Submit a pull request
-
-📄 License
-This project is licensed under the MIT License.
-See the LICENSE file for more details.
-
-📬 Contact
+---
+## 📬 Contact
 Author: Prafull Harer
 GitHub: @PrafullHarer
-Email: [Add your email here]
-
+Email: prafullharer@gmail.com
