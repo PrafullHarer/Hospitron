@@ -27,17 +27,13 @@
 
 ## 📁 Project Structure
 
-Hospitron/
-├── static/ # Static assets (CSS, JS, images)
-├── templates/ # HTML templates (Jinja2)
-├── app.py # Main Flask application
-├── database.db # SQLite database file
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
-
-yaml
-Copy
-Edit
+	Hospitron/
+	├── static/ # Static assets (CSS, JS, images)
+	├── templates/ # HTML templates (Jinja2)
+	├── app.py # Main Flask application
+	├── database.db # SQLite database file
+	├── requirements.txt # Python dependencies
+	└── README.md # Project documentation
 
 ---
 
@@ -46,25 +42,25 @@ Edit
 Follow the steps below to set up and run the project locally:
 
 1. **Clone the repository**
-		```bash
-				git clone https://github.com/PrafullHarer/Hospitron.git
-				cd Hospitron
-2. **Create a virtual environment (optional but recommended)**
-			python -m venv venv
-3. **Activate the environment**
+	git clone https://github.com/PrafullHarer/Hospitron.git
+	cd Hospitron
+3. **Create a virtual environment (optional but recommended)**
+	python -m venv venv
+4. **Activate the environment**
 	On Windows:
 		venv\Scripts\activate
 	On macOS/Linux:
 		source venv/bin/activate
-4. **Install dependencies**
-		pip install -r requirements.txt
-5. **Run the Flask application**
-		python app.py
-6. **Access the application in your browser**
-		http://127.0.0.1:5000
+5. **Install dependencies**
+	pip install -r requirements.txt
+6. **Run the Flask application**
+	python app.py
+7. **Access the application in your browser**
+	http://127.0.0.1:5000
 
 ---
 ## 📬 Contact
+
 Author: Prafull Harer
 GitHub: @PrafullHarer
 Email: prafullharer@gmail.com
