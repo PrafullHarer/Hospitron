@@ -61,6 +61,6 @@ Follow the steps below to set up and run the project locally:
 ---
 ## 📬 Contact
 
-Author: Prafull Harer
-GitHub: @PrafullHarer
-Email: prafullharer@gmail.com
+* Author: Prafull Harer
+* GitHub: @PrafullHarer
+* Email: prafullharer@gmail.com
